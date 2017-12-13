@@ -35,7 +35,8 @@ namespace WebApi
             services.AddAuthentication("Bearer")
                     .AddIdentityServerAuthentication(options =>
                     {
-                        options.Authority = "http://127.0.0.1:5000";
+                        //options.Authority = "http://127.0.0.1:5000";
+                        options.Authority = "https://site1.mydomain.com/identityserver/";
                         options.RequireHttpsMetadata = false;
                         options.ApiName = "api1";
                     });

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerQuickStart", "IdentityServerQuickStart\IdentityServerQuickStart.csproj", "{9E6E79FE-20F1-4917-8722-5224A0976ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerQuickStart", "IdentityServerQuickStart\IdentityServerQuickStart.csproj", "{9E6E79FE-20F1-4917-8722-5224A0976ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{CDB10DEF-E0BD-49B6-9FBB-35B758A66CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{CDB10DEF-E0BD-49B6-9FBB-35B758A66CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{5E561062-D930-48B4-A71F-F2DCFCA7DC8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{5E561062-D930-48B4-A71F-F2DCFCA7DC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientMvc", "ClientMvc\ClientMvc.csproj", "{4C5CD66C-C690-4273-B463-9EBCE9EF3C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5E561062-D930-48B4-A71F-F2DCFCA7DC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E561062-D930-48B4-A71F-F2DCFCA7DC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E561062-D930-48B4-A71F-F2DCFCA7DC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5CD66C-C690-4273-B463-9EBCE9EF3C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5CD66C-C690-4273-B463-9EBCE9EF3C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5CD66C-C690-4273-B463-9EBCE9EF3C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5CD66C-C690-4273-B463-9EBCE9EF3C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
